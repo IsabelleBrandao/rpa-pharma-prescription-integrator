@@ -1,0 +1,28 @@
+# === UiPath Internal Files ===
+.local/
+.screenshots/
+.settings/
+.tmh/
+.objects/
+.entities/
+*.log
+project.json.bak
+
+# === Project Data & Privacy (Compliance LGPD) ===
+Data/Temp/*
+!Data/Temp/.gitkeep
+Data/Output/*
+!Data/Output/.gitkeep
+Data/Config.xlsx
+Exceptions_Screenshots/
+
+# === Office & OS Artifacts ===
+~$*.xlsx
+.DS_Store
+Thumbs.db
+
+# === IDE Specific (VS Code / Visual Studio) ===
+.vscode/
+.vs/
+bin/
+obj/

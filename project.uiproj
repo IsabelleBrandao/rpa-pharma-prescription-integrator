@@ -1,0 +1,6 @@
+{
+  "Name": "RPA_PHARMA_PRESCRIPTION_INTEGRATOR",
+  "ProjectType": "Process",
+  "Description": "Robotic Enterprise Framework",
+  "MainFile": "Main.xaml"
+}
