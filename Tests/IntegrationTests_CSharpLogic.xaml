@@ -1,0 +1,118 @@
+<Activity mc:Ignorable="sap sap2010" x:Class="IntegrationTests_CSharpLogic" sap2010:ExpressionActivityEditor.ExpressionActivityEditor="C#" sap:VirtualizedContainerService.HintSize="890,1163" sap2010:WorkflowViewState.IdRef="IntegrationTests_CSharpLogic_1" xmlns="http://schemas.microsoft.com/netfx/2009/xaml/activities" xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" xmlns:s="clr-namespace:System;assembly=System.Private.CoreLib" xmlns:sap="http://schemas.microsoft.com/netfx/2009/xaml/activities/presentation" xmlns:sap2010="http://schemas.microsoft.com/netfx/2010/xaml/activities/presentation" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:sco="clr-namespace:System.Collections.ObjectModel;assembly=System.Private.CoreLib" xmlns:ui="http://schemas.uipath.com/workflow/activities" xmlns:uta="clr-namespace:UiPath.Testing.Activities;assembly=UiPath.Testing.Activities" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <TextExpression.NamespacesForImplementation>
+    <sco:Collection x:TypeArguments="x:String">
+      <x:String>System</x:String>
+      <x:String>System.Activities</x:String>
+      <x:String>System.Activities.Statements</x:String>
+      <x:String>System.Collections</x:String>
+      <x:String>System.Collections.Generic</x:String>
+      <x:String>System.Collections.ObjectModel</x:String>
+      <x:String>System.Data</x:String>
+      <x:String>System.Linq</x:String>
+      <x:String>System.Linq.Expressions</x:String>
+      <x:String>System.Reflection</x:String>
+      <x:String>System.Runtime.Serialization</x:String>
+      <x:String>System.Text</x:String>
+      <x:String>UiPath.Core</x:String>
+      <x:String>UiPath.Core.Activities</x:String>
+      <x:String>UiPath.Testing.Activities</x:String>
+      <x:String>UiPath.Shared.Activities</x:String>
+      <x:String>GlobalVariablesNamespace</x:String>
+      <x:String>GlobalConstantsNamespace</x:String>
+    </sco:Collection>
+  </TextExpression.NamespacesForImplementation>
+  <TextExpression.ReferencesForImplementation>
+    <sco:Collection x:TypeArguments="AssemblyReference">
+      <AssemblyReference>Microsoft.CSharp</AssemblyReference>
+      <AssemblyReference>mscorlib</AssemblyReference>
+      <AssemblyReference>System</AssemblyReference>
+      <AssemblyReference>System.Activities</AssemblyReference>
+      <AssemblyReference>System.ComponentModel.TypeConverter</AssemblyReference>
+      <AssemblyReference>System.Core</AssemblyReference>
+      <AssemblyReference>System.Data</AssemblyReference>
+      <AssemblyReference>System.Linq</AssemblyReference>
+      <AssemblyReference>System.ObjectModel</AssemblyReference>
+      <AssemblyReference>System.Private.CoreLib</AssemblyReference>
+      <AssemblyReference>System.Runtime.Serialization</AssemblyReference>
+      <AssemblyReference>System.Xaml</AssemblyReference>
+      <AssemblyReference>System.Xml</AssemblyReference>
+      <AssemblyReference>System.Xml.Linq</AssemblyReference>
+      <AssemblyReference>UiPath.System.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.UiAutomation.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.Studio.Constants</AssemblyReference>
+      <AssemblyReference>System.Reflection.DispatchProxy</AssemblyReference>
+      <AssemblyReference>System.Reflection.TypeExtensions</AssemblyReference>
+      <AssemblyReference>System.Reflection.Metadata</AssemblyReference>
+      <AssemblyReference>UiPath.Testing.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.Excel.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.OCR.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.UIAutomationCore</AssemblyReference>
+      <AssemblyReference>UiPath.Web.Activities</AssemblyReference>
+      <AssemblyReference>RPA_PHARMA_PRESCRIPTION_INTEGRATOR.Core</AssemblyReference>
+    </sco:Collection>
+  </TextExpression.ReferencesForImplementation>
+  <Sequence sap2010:Annotation.AnnotationText="Validação offline da lógica de mapeamento, higienização, compliance e limites de tempo (estresse) em C#." DisplayName="IntegrationTests_CSharpLogic" sap:VirtualizedContainerService.HintSize="890,950" sap2010:WorkflowViewState.IdRef="Sequence_1">
+    <Sequence.Variables>
+      <Variable x:TypeArguments="x:Boolean" Name="var_TestSuccess" />
+      <Variable x:TypeArguments="x:String" Name="var_TestLog" />
+    </Sequence.Variables>
+    <sap:WorkflowViewStateService.ViewState>
+      <scg:Dictionary x:TypeArguments="x:String, x:Object">
+        <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+        <x:Boolean x:Key="IsAnnotationDocked">True</x:Boolean>
+      </scg:Dictionary>
+    </sap:WorkflowViewStateService.ViewState>
+    <Sequence DisplayName="... Given" sap:VirtualizedContainerService.HintSize="450,135" sap2010:WorkflowViewState.IdRef="Sequence_2">
+      <sap:WorkflowViewStateService.ViewState>
+        <scg:Dictionary x:TypeArguments="x:String, x:Object">
+          <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+        </scg:Dictionary>
+      </sap:WorkflowViewStateService.ViewState>
+      <ui:LogMessage DisplayName="Log Message" sap:VirtualizedContainerService.HintSize="388,25" sap2010:WorkflowViewState.IdRef="LogMessage_1" Level="Info">
+        <ui:LogMessage.Message>
+          <InArgument x:TypeArguments="x:Object">
+            <CSharpValue x:TypeArguments="x:Object">"Iniciando suíte de testes de integração e estresse offline em C#..."</CSharpValue>
+          </InArgument>
+        </ui:LogMessage.Message>
+      </ui:LogMessage>
+    </Sequence>
+    <Sequence DisplayName="... When" sap:VirtualizedContainerService.HintSize="450,307" sap2010:WorkflowViewState.IdRef="Sequence_3">
+      <sap:WorkflowViewStateService.ViewState>
+        <scg:Dictionary x:TypeArguments="x:String, x:Object">
+          <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+        </scg:Dictionary>
+      </sap:WorkflowViewStateService.ViewState>
+      <ui:InvokeCode ContinueOnError="{x:Null}" Code="try&#xA;{&#xA;    // 1. Cenário Feliz: Receita válida de IGF com distribuidora autorizada de SP (ex: Braspress)&#xA;    string jsonFeliz = @&quot;{&#xA;        &quot;&quot;status&quot;&quot;: &quot;&quot;succeeded&quot;&quot;,&#xA;        &quot;&quot;analyzeResult&quot;&quot;: {&#xA;            &quot;&quot;content&quot;&quot;: &quot;&quot;Dr. Rodolfo de Souza\nMédico\nCRM 12345/SP\nPaciente: Maria da Silva\nCPF: 343.834.788-16\nReceita: (IGF+ HGH) - 2 unids\nValidade: 31/12/2026\nEmissão: 26/05/2026&quot;&quot;&#xA;        }&#xA;    }&quot;;&#xA;    var dtoFeliz = RPA_PHARMA.Infrastructure.Adapters.AzureAI.PrescriptionMapper.MapToDTO(jsonFeliz, &quot;Braspress&quot;);&#xA;    &#xA;    if (dtoFeliz.Medications == null || dtoFeliz.Medications.Count == 0)&#xA;    {&#xA;        string rawContent = Newtonsoft.Json.Linq.JObject.Parse(jsonFeliz).SelectToken(&quot;analyzeResult.content&quot;)?.ToString() ?? &quot;NULL&quot;;&#xA;        throw new Exception(&quot;Erro Diagnóstico: Nenhum medicamento identificado. ContentBlock lido: [&quot; + rawContent + &quot;]. Nome Paciente: &quot; + dtoFeliz.Patient.Name + &quot;, CRM: &quot; + dtoFeliz.Doctor.CRM);&#xA;    }&#xA;    &#xA;    var validator = new RPA_PHARMA.Core.Domain.PrescriptionComplianceValidator();&#xA;    validator.ValidateForProcessing(dtoFeliz); // Deve rodar sem lançar exceções.&#xA;    &#xA;    if (dtoFeliz.Patient.Name != &quot;MARIA DA SILVA&quot;)&#xA;        throw new Exception(&quot;Erro Teste 1: Nome do paciente não normalizado. Obtido: &quot; + dtoFeliz.Patient.Name);&#xA;    if (dtoFeliz.Doctor.CRM != &quot;12345&quot;)&#xA;        throw new Exception(&quot;Erro Teste 1: CRM não extraído. Obtido: &quot; + dtoFeliz.Doctor.CRM);&#xA;    if (dtoFeliz.Medications[0].Quantity != 2)&#xA;        throw new Exception(&quot;Erro Teste 1: Quantidade inválida. Obtido: &quot; + dtoFeliz.Medications[0].Quantity);&#xA;    if (string.IsNullOrEmpty(dtoFeliz.TransactionReference) || dtoFeliz.TransactionReference == &quot;00000000&quot;)&#xA;        throw new Exception(&quot;Erro Teste 1: Hash determinístico não foi gerado.&quot;);&#xA;&#xA;    // 2. Cenário de Bloqueio de Cadeia de Frio: Receita com Tirzepatida enviada por Sedex (deve falhar)&#xA;    string jsonColdChain = @&quot;{&#xA;        &quot;&quot;status&quot;&quot;: &quot;&quot;succeeded&quot;&quot;,&#xA;        &quot;&quot;analyzeResult&quot;&quot;: {&#xA;            &quot;&quot;content&quot;&quot;: &quot;&quot;Dr. Rodolfo de Souza\nMédico\nCRM 12345/SP\nPaciente: Maria da Silva\nCPF: 343.834.788-16\nReceita: (TIRZEPATIDA + B12) - 1 unids\nValidade: 31/12/2026\nEmissão: 26/05/2026&quot;&quot;&#xA;        }&#xA;    }&quot;;&#xA;    var dtoColdChain = RPA_PHARMA.Infrastructure.Adapters.AzureAI.PrescriptionMapper.MapToDTO(jsonColdChain, &quot;SEDEX&quot;);&#xA;    bool coldChainFailed = false;&#xA;    try&#xA;    {&#xA;        validator.ValidateForProcessing(dtoColdChain);&#xA;    }&#xA;    catch (RPA_PHARMA.Core.Domain.Exceptions.PharmaBusinessException ex) when (ex.Message.Contains(&quot;cadeia de frio&quot;))&#xA;    {&#xA;        coldChainFailed = true;&#xA;    }&#xA;    if (!coldChainFailed)&#xA;        throw new Exception(&quot;Erro Teste 2: Validador deveria barrar Tirzepatida sob transporte do Sedex.&quot;);&#xA;&#xA;    // 3. Cenário de Receita Vencida (deve falhar)&#xA;    string jsonVencida = @&quot;{&#xA;        &quot;&quot;status&quot;&quot;: &quot;&quot;succeeded&quot;&quot;,&#xA;        &quot;&quot;analyzeResult&quot;&quot;: {&#xA;            &quot;&quot;content&quot;&quot;: &quot;&quot;Dr. Rodolfo de Souza\nMédico\nCRM 12345/SP\nPaciente: Maria da Silva\nCPF: 343.834.788-16\nReceita: (IGF+ HGH) - 1 unids\nValidade: 01/01/2025\nEmissão: 26/05/2024&quot;&quot;&#xA;        }&#xA;    }&quot;;&#xA;    var dtoVencida = RPA_PHARMA.Infrastructure.Adapters.AzureAI.PrescriptionMapper.MapToDTO(jsonVencida, &quot;Braspress&quot;);&#xA;    bool vencidaFailed = false;&#xA;    try&#xA;    {&#xA;        validator.ValidateForProcessing(dtoVencida);&#xA;    }&#xA;    catch (RPA_PHARMA.Core.Domain.Exceptions.PharmaBusinessException ex) when (ex.Message.Contains(&quot;vencida&quot;))&#xA;    {&#xA;        vencidaFailed = true;&#xA;    }&#xA;    if (!vencidaFailed)&#xA;        throw new Exception(&quot;Erro Teste 3: Validador deveria barrar receita vencida.&quot;);&#xA;&#xA;    // 4. Cenário de CPF Inválido (deve falhar)&#xA;    string jsonCpfInvalido = @&quot;{&#xA;        &quot;&quot;status&quot;&quot;: &quot;&quot;succeeded&quot;&quot;,&#xA;        &quot;&quot;analyzeResult&quot;&quot;: {&#xA;            &quot;&quot;content&quot;&quot;: &quot;&quot;Dr. Rodolfo de Souza\nMédico\nCRM 12345/SP\nPaciente: Maria da Silva\nCPF: 123.456.789-00\nReceita: (IGF+ HGH) - 1 unids\nValidade: 31/12/2026\nEmissão: 26/05/2026&quot;&quot;&#xA;        }&#xA;    }&quot;;&#xA;    var dtoCpfInvalido = RPA_PHARMA.Infrastructure.Adapters.AzureAI.PrescriptionMapper.MapToDTO(jsonCpfInvalido, &quot;Braspress&quot;);&#xA;    bool cpfInvalidoFailed = false;&#xA;    try&#xA;    {&#xA;        validator.ValidateForProcessing(dtoCpfInvalido);&#xA;    }&#xA;    catch (RPA_PHARMA.Core.Domain.Exceptions.PharmaBusinessException ex) when (ex.Message.Contains(&quot;CPF: 12345678900) é inválido&quot;))&#xA;    {&#xA;        cpfInvalidoFailed = true;&#xA;    }&#xA;    if (!cpfInvalidoFailed)&#xA;        throw new Exception(&quot;Erro Teste 4: Validador deveria barrar CPF matemático inválido.&quot;);&#xA;&#xA;    // 5. Cenário de Estresse (ReDoS e Tamanho)&#xA;    var sb = new System.Text.StringBuilder();&#xA;    for (int i = 0; i &lt; 10000; i++)&#xA;    {&#xA;        sb.Append(&quot;Dr. Rodolfo de Souza Médico CRM 12345/SP Paciente: Nome Gigante CPF: 343.834.788-16 Receita: (IGF+ HGH) - 2 unids Validade: 31/12/2026 Emissão: 26/05/2026 &quot;);&#xA;    }&#xA;    string contentEstresse = sb.ToString();&#xA;    string jsonEstresse = @&quot;{&#xA;        &quot;&quot;status&quot;&quot;: &quot;&quot;succeeded&quot;&quot;,&#xA;        &quot;&quot;analyzeResult&quot;&quot;: {&#xA;            &quot;&quot;content&quot;&quot;: &quot;&quot;&quot; + contentEstresse + @&quot;&quot;&quot;&#xA;        }&#xA;    }&quot;;&#xA;    &#xA;    var sw = System.Diagnostics.Stopwatch.StartNew();&#xA;    var dtoEstresse = RPA_PHARMA.Infrastructure.Adapters.AzureAI.PrescriptionMapper.MapToDTO(jsonEstresse, &quot;Braspress&quot;);&#xA;    sw.Stop();&#xA;    &#xA;    if (sw.ElapsedMilliseconds &gt; 2000)&#xA;        throw new Exception(&quot;Erro Teste 5: Estouro de tempo (ReDoS). Tempo levado: &quot; + sw.ElapsedMilliseconds + &quot; ms.&quot;);&#xA;    &#xA;    out_TestSuccess = true;&#xA;    out_TestLog = &quot;Todos os 5 testes de integração e estresse foram concluídos com sucesso offline! Tempo do teste de estresse: &quot; + sw.ElapsedMilliseconds + &quot; ms.&quot;;&#xA;}&#xA;catch (Exception ex)&#xA;{&#xA;    out_TestSuccess = false;&#xA;    out_TestLog = &quot;FALHA NOS TESTES: &quot; + ex.Message + &quot;\nStack: &quot; + ex.StackTrace;&#xA;}&#xA;" DisplayName="Invoke Code" sap:VirtualizedContainerService.HintSize="388,197" sap2010:WorkflowViewState.IdRef="InvokeCode_1" Language="CSharp">
+        <ui:InvokeCode.Arguments>
+          <OutArgument x:TypeArguments="x:Boolean" x:Key="out_TestSuccess">
+            <CSharpReference x:TypeArguments="x:Boolean" sap2010:WorkflowViewState.IdRef="CSharpReference`1_1">var_TestSuccess</CSharpReference>
+          </OutArgument>
+          <OutArgument x:TypeArguments="x:String" x:Key="out_TestLog">
+            <CSharpReference x:TypeArguments="x:String" sap2010:WorkflowViewState.IdRef="CSharpReference`1_2">var_TestLog</CSharpReference>
+          </OutArgument>
+        </ui:InvokeCode.Arguments>
+      </ui:InvokeCode>
+    </Sequence>
+    <Sequence DisplayName="... Then" sap:VirtualizedContainerService.HintSize="450,299" sap2010:WorkflowViewState.IdRef="Sequence_4">
+      <sap:WorkflowViewStateService.ViewState>
+        <scg:Dictionary x:TypeArguments="x:String, x:Object">
+          <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+        </scg:Dictionary>
+      </sap:WorkflowViewStateService.ViewState>
+      <ui:LogMessage DisplayName="Log Message Log de Teste" sap:VirtualizedContainerService.HintSize="416,141" sap2010:WorkflowViewState.IdRef="LogMessage_2" Level="Info">
+        <ui:LogMessage.Message>
+          <InArgument x:TypeArguments="x:Object">
+            <CSharpValue x:TypeArguments="x:Object">var_TestLog</CSharpValue>
+          </InArgument>
+        </ui:LogMessage.Message>
+      </ui:LogMessage>
+      <uta:VerifyExpression AlternativeVerificationTitle="{x:Null}" KeepScreenshots="{x:Null}" OutputMessageFormat="{x:Null}" Result="{x:Null}" ScreenshotsPath="{x:Null}" ContinueOnFailure="False" DisplayName="Verify Expression TestSuccess" sap:VirtualizedContainerService.HintSize="416,114" sap2010:WorkflowViewState.IdRef="VerifyExpression_1" TakeScreenshotInCaseOfFailingAssertion="False" TakeScreenshotInCaseOfSucceedingAssertion="False">
+        <uta:VerifyExpression.Expression>
+          <InArgument x:TypeArguments="x:Boolean">
+            <CSharpValue x:TypeArguments="x:Boolean" sap2010:WorkflowViewState.IdRef="CSharpValue`1_1">var_TestSuccess</CSharpValue>
+          </InArgument>
+        </uta:VerifyExpression.Expression>
+      </uta:VerifyExpression>
+    </Sequence>
+  </Sequence>
+</Activity>
